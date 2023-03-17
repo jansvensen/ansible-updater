@@ -1,8 +1,8 @@
 ---
 # Ansible variables
-ansible_connection: winrm
-ansible_shell_type: "powershell"
-ansible_user: demo\admin
-ansible_password: dT$
 ansible_path_temp: c:\AnsibleTemp
-ansible_winrm_transport: basic
+ansible_user: admin@demo.devicetrust.local
+ansible_password: dT$
+ansible_connection: winrm
+ansible_port: 5985
+ansible_winrm_transport: kerberos
