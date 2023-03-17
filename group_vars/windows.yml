@@ -1,7 +1,7 @@
 ---
 # Ansible variables
 ansible_path_temp: c:\AnsibleTemp
-ansible_user: admin@demo.devicetrust.local
+ansible_user: admin@DEMO.DEVICETRUST.LOCAL
 ansible_password: dT$
 ansible_connection: winrm
 ansible_port: 5985
