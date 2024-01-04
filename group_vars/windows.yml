@@ -1,9 +1,9 @@
 ---
 # Ansible variables
 ansible_path_temp: c:\AnsibleTemp
-ansible_user: admin@DEMO.DEVICETRUST.LOCAL
-ansible_password: dT$
-ansible_connection: winrm
+ansible.user: admin@DEMO.DEVICETRUST.LOCAL
+ansible.password: dT$
+ansible.connection: winrm
 ansible_port: 5985
 ansible_winrm_transport: kerberos
 ansible_winrm_kerberos_delegation: true
